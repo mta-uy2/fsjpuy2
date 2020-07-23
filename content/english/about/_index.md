@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "About The FSJP"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

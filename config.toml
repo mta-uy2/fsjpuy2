@@ -2,7 +2,7 @@
 baseURL = ""
 title = "FSJP"
 # Faculté des Sciences Juridiques et Politiquess
-theme = "educenter-hugo-master"
+# theme = "educenter-hugo-master"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -189,7 +189,7 @@ top_header = true
 
 # Preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
@@ -234,23 +234,22 @@ link = "#"
 #link = "#"
 
 
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 FSJP-Uy2 Soa"
-
-
 ################################### French language #####################################
 [Languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
+weight = 2
+# home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2020 FSJP-Uy2 Soa"
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
 weight = 1
-home = "Accueil"
+# home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 FSJP-Uy2 Soa"
